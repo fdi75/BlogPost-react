@@ -1,0 +1,50 @@
+body #root{
+    display: flex;
+    min-height: 100vh;
+    background-color: #20232a;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+aside{
+    min-width: 200px;
+    max-width: 300px;
+    text-align: left;
+}
+li{
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.container{
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: 10px;
+
+
+
+}
+
+.post{
+    margin: 15px auto;
+    border-radius: 10px;
+    color: #007bec;
+    font-size: 2rem;
+    width: 70%;
+}
+/* .post img{
+    width: 200px;
+    height: 150px;
+} */
+.comments{
+    color: #007bec;
+    margin: 20px auto;
+    text-align: left;
+    width: 70%;
+}
+.comment{
+    margin: 5px;
+
+}
