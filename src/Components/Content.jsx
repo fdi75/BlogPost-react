@@ -10,11 +10,11 @@ export default class Content extends Component {
   }
 
   async Getcomments() {
-    const res = await fetch(
-      `http://localhost:3002/comments?postId=${this.props.post.id}`
-    );
+    const res = await fetch(process.env.PUBLIC_URL + "/db.json");
     const data = await res.json();
-    return await data;
+    return data.comments
+      ? data.comments.filter((c) => c.postId === this.props.post.id)
+      : [];
   }
 
   componentDidMount() {

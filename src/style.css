@@ -7,6 +7,7 @@ body #root{
     text-align: center;
 }
 
+
 aside{
     min-width: 200px;
     max-width: 300px;
@@ -25,6 +26,10 @@ li{
 
 
 
+}
+
+.post-text {
+    font-size: 2vw;
 }
 
 .post{
@@ -47,4 +52,15 @@ li{
 .comment{
     margin: 5px;
 
+}
+
+
+@media screen and (max-width: 768px) {
+    body #root{
+        flex-direction: column;
+    }
+
+    .post-text {
+        font-size: 4vw;
+    }
 }

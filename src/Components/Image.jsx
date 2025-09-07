@@ -3,9 +3,9 @@ import React from "react";
 export default function Image(props) {
   return (
     <div className="post">
-      <img src={`../images/${props.post.image}`} alt="" />
+      <img src={`${process.env.PUBLIC_URL}/images/${props.post.image}`} alt="" />
       <h1>{props.post.title}</h1>
-      <div>{props.post.body}</div>
+      <div className="post-text">{props.post.body}</div>
     </div>
   );
 }

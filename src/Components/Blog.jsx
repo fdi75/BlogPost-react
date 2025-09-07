@@ -19,7 +19,7 @@ export default class Blog extends Component {
   }
 
   componentDidMount() {
-    Getposts().then((data) => this.setState({ posts: data, selectedPost: 0 }));
+    Getposts().then((data) => this.setState({ posts: data.posts, selectedPost: 0 }));
   }
 
   render() {
