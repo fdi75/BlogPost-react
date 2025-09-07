@@ -1,0 +1,67 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Childs",
+      "author": "aaaaaaaaa-1",
+      "body": "1-lorem10 wsjhwsjdhwsjdhw jwhsjwhsjwhs jwhsjwhsjwhsjhwjs kjwskwjskjwksjkwajska oieiwuiwhqgws;aL;ASZ KNSXJSJDCGHDSCBDSOKD KJDHJSHDJKSA",
+      "image": "1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Family",
+      "author": "aaaaaaaaa-2",
+      "body": "2-lorem10 wsjhwsjdhwsjdhw jwhsjwhsjwhs jwhsjwhsjwhsjhwjs kjwskwjskjwksjkwajska oieiwuiwhqgws;aL;ASZ KNSXJSJDCGHDSCBDSOKD KJDHJSHDJKSA",
+      "image": "2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Boys",
+      "author": "aaaaaaaaa-3",
+      "body": "3-lorem10 wsjhwsjdhwsjdhw jwhsjwhsjwhs jwhsjwhsjwhsjhwjs kjwskwjskjwksjkwajska oieiwuiwhqgws;aL;ASZ KNSXJSJDCGHDSCBDSOKD KJDHJSHDJKSA",
+      "image": "3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Men",
+      "author": "aaaaaaaaa-4",
+      "body": "4-lorem10 wsjhwsjdhwsjdhw jwhsjwhsjwhs jwhsjwhsjwhsjhwjs kjwskwjskjwksjkwajska oieiwuiwhqgws;aL;ASZ KNSXJSJDCGHDSCBDSOKD KJDHJSHDJKSA",
+      "image": "4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "...",
+      "author": "aaaaaaaaa-5",
+      "body": "5-lorem10 wsjhwsjdhwsjdhw jwhsjwhsjwhs jwhsjwhsjwhsjhwjs kjwskwjskjwksjkwajska oieiwuiwhqgws;aL;ASZ KNSXJSJDCGHDSCBDSOKD KJDHJSHDJKSA",
+      "image": "5.jpg"
+    }
+  ],
+
+  "comments": [
+    {
+      "id": 1,
+      "body": "a comment about post 1",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "a comment about post 2",
+      "postId": 2
+    },
+    {
+      "id": 3,
+      "body": "a comment about post 3",
+      "postId": 3
+    },
+    {
+      "id": 4,
+      "body": "a comment about post 4",
+      "postId": 4
+    },
+    {
+      "id": 5,
+      "body": "a comment about post 5",
+      "postId": 5
+    }
+  ]
+}
